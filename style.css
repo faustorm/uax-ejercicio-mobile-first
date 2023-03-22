@@ -62,6 +62,11 @@ h1 {
 .caja-img {
     margin: 0 auto;
 }
+
+#nav-main {
+    display: flex;
+    flex-direction: column;
+}
 /*Media Queries*/
 /*Small*/
 @media (max-width: 767px) { 
@@ -75,11 +80,29 @@ h1 {
     .show-tablet {
         display: block;
     }
+
 }
 
 /*Large*/
 @media (min-width: 992px) { 
     .show-desktop {
         display: block;
+    }
+    #seccion-1 {
+        width: 100%;
+    }
+    #nav-main {
+        flex-direction: row;
+    }
+    #main {
+        width: 70%;
+    }
+    nav {
+        width: 30%;
+    }
+    #menu-main {
+        padding: 0;
+        flex-direction: column;
+        justify-content: space-around;
     }
 }
