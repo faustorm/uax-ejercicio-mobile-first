@@ -1,10 +1,52 @@
+<!DOCTYPE html>
 <html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
     <body>
-        <a href="pagina1.html">
-            Página 1
-        </a>
-        <a href="pagina2.html">
-            Página 2
-        </a>
+        <header>
+            <h1>Título del sitio H1</h1>
+        </header>
+        <nav>
+            <h2>Menú H2</h2>
+            <ul id="menu-main">
+                <li>Link 1</li>
+                <li>Link 2</li>
+                <li class="selected">Link 3</li>
+                <li>Link 4</li>
+            </ul>
+            <ul id="menu-sticky">
+                <li><span class="show-mobile">TOP</span><span class="show-desktop show-tablet">Link TOP</span></li>
+                <li><span class="show-mobile">S1</span><span class="show-desktop show-tablet">Sección 1</span></li>
+                <li><span class="show-mobile">S2</span><span class="show-desktop show-tablet">Sección 2</span></li>
+            </ul>
+        </nav>
+        <div id="main">
+            <section id="section-1">
+                <div class="row">
+                    <div class="column">
+                        <div class="caja-img"></div>
+                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur sint sit optio. Vitae architecto illum sunt, a dolores incidunt praesentium nulla voluptatibus nam nostrum distinctio unde quasi saepe, totam corporis?</p>
+                        <p class="author">Autor</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column column-izq">
+                        <div class="caja-img"></div>
+                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur sint sit optio. Vitae architecto illum sunt, a dolores incidunt praesentium nulla voluptatibus nam nostrum distinctio unde quasi saepe, totam corporis?</p>
+                        <p class="author">Autor</p>
+                    </div>
+                </div>
+                <div class="row row-der">
+                    <div class="column column-der">
+                        <div class="caja-img caja-der"></div>
+                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur sint sit optio. Vitae architecto illum sunt, a dolores incidunt praesentium nulla voluptatibus nam nostrum distinctio unde quasi saepe, totam corporis?</p>
+                        <p class="author">Autor</p>
+                    </div>
+                </div>
+            </section>
+        </div>
     </body>
 </html>
